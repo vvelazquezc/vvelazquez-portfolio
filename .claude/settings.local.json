@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__stitch__list_projects",
+      "Bash(npm run:*)",
+      "Bash(claude mcp:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

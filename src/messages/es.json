@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Verónica Velázquez",
+    "role": "Frontend Engineer",
+    "bio": "Ingeniera Frontend especializada en el desarrollo de aplicaciones web escalables y mantenibles. Experiencia sólida en el ecosistema React y TypeScript, participando en decisiones de arquitectura frontend y diseño de sistemas de gestión de estado en entornos orientados a producto. Enfoque en código limpio, optimización de rendimiento y soluciones técnicas pensadas para crecer de forma sostenible.",
+    "cover_letter": "He visto que estáis buscando un perfil Frontend y me gustaría presentar mi candidatura. Soy Frontend Engineer especializada en aplicaciones complejas construidas con React y TypeScript. Durante los últimos años he trabajado diseñando y evolucionando arquitecturas frontend escalables, gestionando estado global con Redux y desarrollando soluciones robustas en entornos orientados a producto. En mi última etapa profesional (MonoM, 2022–2025), lideré decisiones técnicas relacionadas con arquitectura, organización del estado de aplicación y definición de patrones reutilizables, con foco en mantenibilidad, rendimiento y reducción de deuda técnica. Mi perfil combina una base sólida de ingeniería frontend con background en diseño UX/UI, lo que me permite construir soluciones no solo técnicas, sino también coherentes desde la experiencia de usuario. Me gustaría poder conversar con vosotros para conocer mejor el reto técnico y valorar cómo puedo aportar al equipo.",
+    "location": "Terrassa, España",
+    "phone": "+34 679 751 020",
+    "email": "veronicavelazquezcalleja@gmail.com",
+    "cta_contact": "Contactar",
+    "cta_experience": "Ver experiencia"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "toggle_code": "Code View",
+    "toggle_visual": "Visual View",
+    "jobs": [
+      {
+        "id": "monom",
+        "company": "MonoM",
+        "role": "Frontend Engineer",
+        "period": "2022 – 2025",
+        "tasks": [
+          "Participación activa en decisiones de arquitectura frontend con React y TypeScript.",
+          "Diseño de sistemas escalables de gestión de estado global utilizando Redux.",
+          "Implementación de formularios dinámicos basados en schema con react-jsonschema-form.",
+          "Desarrollo de sistemas avanzados de filtrado e interacciones complejas con @dnd-kit.",
+          "Gestión de autenticación y sesiones mediante Firebase.",
+          "Definición de patrones reutilizables y buenas prácticas de desarrollo frontend.",
+          "Reducción de deuda técnica y mejora de rendimiento mediante refactorizaciones estratégicas."
+        ]
+      },
+      {
+        "id": "consultia",
+        "company": "Consultia IT",
+        "role": "Frontend & Técnica UX/UI",
+        "period": "2021 – 2022",
+        "tasks": [
+          "Desarrollo de proyectos con arquitectura de microfrontends en React.",
+          "Trabajo en entornos Agile colaborando con equipos multidisciplinares.",
+          "Gestión de entornos cloud en Azure.",
+          "Análisis funcional, desarrollo de nuevas funcionalidades y resolución de incidencias."
+        ]
+      },
+      {
+        "id": "freelance",
+        "company": "Autónoma",
+        "role": "Programadora y Diseñadora Web",
+        "period": "2017 – 2020",
+        "clients": "Prodigioso Volcán | Contents Area | BBVA IT | Extended Game",
+        "tasks": [
+          "Diseño y desarrollo de múltiples plataformas web.",
+          "Desarrollo frontend para la plataforma interna de inversores y accionistas de BBVA.",
+          "Gestión de newsletters y blogs.",
+          "Tecnologías: HTML5, CSS3, SASS, JavaScript, jQuery, Bootstrap, WordPress."
+        ]
+      },
+      {
+        "id": "bestmelab",
+        "company": "BESTMELAB",
+        "role": "Diseñadora y Programación web",
+        "period": "2016 – 2017",
+        "tasks": [
+          "Diseño del nuevo producto PANGEA.",
+          "Mantenimiento e implementación del nuevo producto a la web (E-commerce).",
+          "Tecnologías: WordPress, PHP, Paquete Adobe."
+        ]
+      },
+      {
+        "id": "graphic",
+        "company": "Diseñadora gráfica",
+        "role": "Freelance",
+        "period": "2017 – 2020",
+        "clients": "Method | Cambio de Sentido | Mont Petit Monde",
+        "tasks": [
+          "Diseños online y offline con diferentes herramientas de Adobe para la creación gráfica, edición fotográfica y maquetación para distintos clientes."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "toggle_code": "Code View",
+    "toggle_visual": "Visual View",
+    "degrees": [
+      {
+        "id": "master-engineering",
+        "title": "Master Software Engineering",
+        "school": "Assembler School",
+        "location": "Barcelona",
+        "period": "2020 – 2021"
+      },
+      {
+        "id": "master-web",
+        "title": "Master Diseño y Programación web",
+        "school": "TRAZOS",
+        "location": "Madrid",
+        "period": "2016 – 2017"
+      },
+      {
+        "id": "cfgs",
+        "title": "CFGS en Diseño y Producción Editorial",
+        "school": "IES Islas Filipinas",
+        "location": "Madrid",
+        "period": "2013 – 2015"
+      }
+    ],
+    "skills": {
+      "title": "Competencias técnicas",
+      "programming": {
+        "label": "Programación",
+        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
+        "backend": "Node.js, Express.js",
+        "package_managers": "NPM, yarn",
+        "databases": "MySQL, MongoDB",
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
+        "architecture": "Arquitectura Frontend, Diseño de Estado de Aplicación, Sistemas Escalables"
+      },
+      "design": {
+        "label": "Diseño",
+        "adobe": "Photoshop, Indesign, Illustrator, Lightroom, XD",
+        "ux_ui": "Sketch, Figma"
+      },
+      "languages": {
+        "label": "Idiomas",
+        "english": "Inglés — Nivel profesional (B2 / First Certificate)",
+        "spanish": "Español — Nativo"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos.",
+    "name_label": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email_label": "Email",
+    "email_placeholder": "tu@email.com",
+    "message_label": "Mensaje",
+    "message_placeholder": "Cuéntame en qué puedo ayudarte...",
+    "submit": "Enviar mensaje",
+    "success": "¡Mensaje enviado! Me pondré en contacto contigo pronto.",
+    "error": "Algo ha ido mal. Por favor, inténtalo de nuevo."
+  }
+}

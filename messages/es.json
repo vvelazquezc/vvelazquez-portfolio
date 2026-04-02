@@ -1,0 +1,274 @@
+{
+  "Metadata": {
+    "homeDescription": "Portfolio de Verónica Velázquez, Software Developer especializada en experiencias web modernas con React, Next.js y TypeScript.",
+    "experienceTitle": "Experiencia",
+    "experienceDescription": "Trayectoria profesional de Verónica Velázquez — Frontend Engineer y Full Stack Developer.",
+    "educationTitle": "Educación",
+    "educationDescription": "Formación académica y certificaciones de Verónica Velázquez.",
+    "contactTitle": "Contacto",
+    "contactDescription": "Contáctame para oportunidades laborales, proyectos freelance o colaboraciones."
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "langSwitch": "Cambiar idioma"
+  },
+  "Hero": {
+    "available": "Disponible para nuevas oportunidades",
+    "subtitle": "Software Frontend Developer & UX/UI",
+    "description": "Soy Frontend Engineer especializada en aplicaciones complejas construidas con React y TypeScript. Durante los últimos años he trabajado diseñando y evolucionando arquitecturas frontend escalables, gestionando estado global con Redux y desarrollando soluciones robustas en entornos orientados a producto. En mi última etapa profesional (MonoM, 2022–2025), lideré decisiones técnicas relacionadas con arquitectura, organización del estado de aplicación y definición de patrones reutilizables, con foco en mantenibilidad, rendimiento y reducción de deuda técnica. Mi perfil combina una base sólida de ingeniería frontend con background en diseño UX/UI, lo que me permite construir soluciones no solo técnicas, sino también coherentes desde la experiencia de usuario.",
+    "viewExperience": "Ver experiencia",
+    "contact": "Contáctame"
+  },
+  "ContentLayout": {
+    "visualView": "Vista Visual",
+    "codeView": "Vista Código",
+    "changeView": "Cambiar vista"
+  },
+  "ExperiencePage": {
+    "title": "Experiencia",
+    "subtitle": "Mi trayectoria profesional como desarrolladora de software.",
+    "listAriaLabel": "Lista de experiencia laboral",
+    "codeAriaLabel": "Experiencia laboral en formato JSON",
+    "achievementsAriaLabel": "Logros",
+    "technologiesAriaLabel": "Tecnologías utilizadas"
+  },
+  "EducationPage": {
+    "title": "Educación",
+    "subtitle": "Mi formación académica y aprendizaje continuo.",
+    "codeAriaLabel": "Educación en formato JSON",
+    "highlightsAriaLabel": "Destacados",
+    "subjectsLabel": "Materias clave",
+    "subjectsAriaLabel": "Materias"
+  },
+  "ContactPage": {
+    "title": "Contacto",
+    "commandHint": "$ curl -X POST ~/contact",
+    "subtitle": "¿Tienes un proyecto en mente o quieres charlar? Escríbeme.",
+    "availability": "Disponibilidad",
+    "availabilityText": "Actualmente disponible para proyectos freelance y oportunidades de tiempo completo.",
+    "responseTime": "Tiempo de respuesta",
+    "responseTimeValue": "~ 24 — 48 horas",
+    "findMe": "Encuéntrame en",
+    "contactInfoAriaLabel": "Información de contacto"
+  },
+  "ContactForm": {
+    "ariaLabel": "Formulario de contacto",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "subject": "Asunto",
+    "selectSubject": "Selecciona un asunto",
+    "subjectJob": "Oportunidad laboral",
+    "subjectFreelance": "Proyecto freelance",
+    "subjectCollab": "Colaboración",
+    "subjectOther": "Otro",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto o consulta...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje enviado!",
+    "successText": "Gracias por contactarme. Te responderé lo antes posible.",
+    "sendAnother": "Enviar otro mensaje",
+    "nameRequired": "El nombre es obligatorio",
+    "nameMinLength": "El nombre debe tener al menos 2 caracteres",
+    "emailRequired": "El email es obligatorio",
+    "emailInvalid": "El formato del email no es válido",
+    "subjectRequired": "Selecciona un asunto",
+    "messageRequired": "El mensaje es obligatorio",
+    "messageMinLength": "El mensaje debe tener al menos 20 caracteres"
+  },
+  "SkillsMinimap": {
+    "title": "skills.json",
+    "programming": "Programación",
+    "design": "Diseño",
+    "frontend": "Frontend",
+    "styles": "Estilos",
+    "backend": "Backend",
+    "architecture": "Arquitectura",
+    "cloudTools": "Cloud & Tools",
+    "adobe": "Adobe",
+    "uxui": "UX / UI"
+  },
+  "ExperienceData": {
+    "items": [
+      {
+        "company": "MonoM",
+        "role": "Frontend Engineer",
+        "period": "2022 — 2025",
+        "location": "España",
+        "description": "Participación activa en decisiones de arquitectura frontend con React y TypeScript. Diseño de sistemas escalables de gestión de estado global y definición de patrones reutilizables con foco en mantenibilidad y rendimiento.",
+        "achievements": [
+          "Diseño de sistemas escalables de gestión de estado global utilizando Redux",
+          "Implementación de formularios dinámicos basados en schema con react-jsonschema-form",
+          "Desarrollo de sistemas avanzados de filtrado e interacciones complejas con @dnd-kit",
+          "Gestión de autenticación y sesiones mediante Firebase",
+          "Reducción de deuda técnica y mejora de rendimiento mediante refactorizaciones estratégicas"
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Redux",
+          "Firebase",
+          "react-jsonschema-form",
+          "dnd-kit"
+        ]
+      },
+      {
+        "company": "Consultia IT",
+        "role": "Frontend & Técnica UX/UI",
+        "period": "2021 — 2022",
+        "location": "España",
+        "description": "Desarrollo de proyectos con arquitectura de microfrontends en React. Trabajo en entornos Agile colaborando con equipos multidisciplinares y gestión de entornos cloud en Azure.",
+        "achievements": [
+          "Desarrollo de proyectos con arquitectura de microfrontends en React",
+          "Trabajo en entornos Agile colaborando con equipos multidisciplinares",
+          "Gestión de entornos cloud en Azure",
+          "Análisis funcional, desarrollo de nuevas funcionalidades y resolución de incidencias"
+        ],
+        "technologies": ["React", "Azure", "Microfrontends", "Agile"]
+      },
+      {
+        "company": "Autónoma",
+        "role": "Programadora y Diseñadora Web",
+        "period": "2017 — 2020",
+        "location": "España",
+        "clients": "Prodigioso Volcán | Contents Area | BBVA IT | Extended Game",
+        "description": "Diseño y desarrollo de múltiples plataformas web. Desarrollo frontend para la plataforma interna de inversores y accionistas de BBVA.",
+        "achievements": [
+          "Diseño y desarrollo de múltiples plataformas web",
+          "Desarrollo frontend para la plataforma interna de inversores y accionistas de BBVA",
+          "Gestión de newsletters y blogs"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "SASS",
+          "JavaScript",
+          "jQuery",
+          "Bootstrap",
+          "WordPress"
+        ]
+      },
+      {
+        "company": "BESTMELAB",
+        "role": "Diseñadora y Programación Web",
+        "period": "2016 — 2017",
+        "location": "España",
+        "description": "Diseño del nuevo producto PANGEA. Mantenimiento e implementación del nuevo producto a la web en formato E-commerce.",
+        "achievements": [
+          "Diseño del nuevo producto PANGEA",
+          "Mantenimiento e implementación del nuevo producto a la web (E-commerce)"
+        ],
+        "technologies": ["WordPress", "PHP", "Adobe Suite"]
+      },
+      {
+        "company": "Diseñadora Gráfica",
+        "role": "Freelance",
+        "period": "2017 — 2020",
+        "location": "España",
+        "clients": "Method | Cambio de Sentido | Mont Petit Monde",
+        "description": "Diseños online y offline con diferentes herramientas de Adobe para la creación gráfica, edición fotográfica y maquetación para distintos clientes.",
+        "achievements": [
+          "Diseños online y offline para distintos clientes",
+          "Creación gráfica, edición fotográfica y maquetación"
+        ],
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "Lightroom"]
+      }
+    ]
+  },
+  "EducationData": {
+    "items": [
+      {
+        "institution": "Assembler School",
+        "degree": "Master Software Engineering",
+        "period": "2020 — 2021",
+        "location": "Barcelona",
+        "status": "Titulada",
+        "gpa": "",
+        "description": "Formación avanzada en ingeniería de software con foco en arquitecturas modernas y buenas prácticas de desarrollo.",
+        "highlights": [
+          "Arquitectura de software y sistemas escalables",
+          "Desarrollo con React y TypeScript",
+          "Metodologías Agile y trabajo en equipo"
+        ],
+        "coursework": [
+          "Arquitectura Frontend",
+          "React & TypeScript",
+          "Node.js",
+          "Bases de Datos",
+          "Agile & Scrum"
+        ]
+      },
+      {
+        "institution": "TRAZOS",
+        "degree": "Master Diseño y Programación Web",
+        "period": "2016 — 2017",
+        "location": "Madrid",
+        "status": "Titulada",
+        "description": "Formación integral en diseño web y programación frontend, combinando habilidades técnicas y creativas.",
+        "highlights": [
+          "Diseño UX/UI aplicado a proyectos reales",
+          "Programación web frontend",
+          "Herramientas de diseño profesional"
+        ],
+        "coursework": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "UX/UI Design",
+          "WordPress"
+        ]
+      },
+      {
+        "institution": "IES Islas Filipinas",
+        "degree": "CFGS en Diseño y Producción Editorial",
+        "period": "2013 — 2015",
+        "location": "Madrid",
+        "status": "Titulada",
+        "description": "Ciclo formativo de grado superior especializado en diseño gráfico y producción editorial.",
+        "highlights": [
+          "Diseño editorial y maquetación profesional",
+          "Producción gráfica digital e impresa",
+          "Paquete Adobe completo"
+        ],
+        "coursework": [
+          "Photoshop",
+          "InDesign",
+          "Illustrator",
+          "Diseño Editorial",
+          "Producción Gráfica"
+        ]
+      }
+    ],
+    "skills": {
+      "title": "Competencias técnicas",
+      "programming": {
+        "label": "Programación",
+        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
+        "backend": "Node.js, Express.js",
+        "packageManagers": "NPM, Yarn",
+        "databases": "MySQL, MongoDB",
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
+        "architecture": "Arquitectura Frontend, Diseño de Estado de Aplicación, Sistemas Escalables"
+      },
+      "design": {
+        "label": "Diseño",
+        "adobe": "Photoshop, InDesign, Illustrator, Lightroom, XD",
+        "uxui": "Sketch, Figma"
+      },
+      "languages": {
+        "label": "Idiomas",
+        "english": "Inglés — Nivel profesional (B2 / First Certificate)",
+        "spanish": "Español — Nativo"
+      }
+    }
+  }
+}

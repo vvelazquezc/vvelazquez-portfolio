@@ -1,0 +1,193 @@
+{
+  "Metadata": {
+    "homeDescription": "Portfolio of Verónica Velázquez, Software Developer specialized in modern web experiences with React, Next.js, and TypeScript.",
+    "experienceTitle": "Experience",
+    "experienceDescription": "Professional journey of Verónica Velázquez — Frontend Engineer and Full Stack Developer.",
+    "educationTitle": "Education",
+    "educationDescription": "Academic background and certifications of Verónica Velázquez.",
+    "contactTitle": "Contact",
+    "contactDescription": "Get in touch for job opportunities, freelance projects, or collaborations."
+  },
+  "Navbar": {
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "langSwitch": "Switch language"
+  },
+  "Hero": {
+    "available": "Available for new opportunities",
+    "subtitle": "Software Developer & UI Engineer",
+    "description": "I build modern web experiences focused on clean code, accessible design, and performance. Passionate about turning complex ideas into elegant interfaces.",
+    "viewExperience": "View experience",
+    "contact": "Contact me"
+  },
+  "ContentLayout": {
+    "visualView": "Visual View",
+    "codeView": "Code View",
+    "changeView": "Switch view"
+  },
+  "ExperiencePage": {
+    "title": "Experience",
+    "subtitle": "My professional journey as a software developer.",
+    "listAriaLabel": "Work experience list",
+    "codeAriaLabel": "Work experience in JSON format",
+    "achievementsAriaLabel": "Achievements",
+    "technologiesAriaLabel": "Technologies used"
+  },
+  "EducationPage": {
+    "title": "Education",
+    "subtitle": "My academic background and continuous learning.",
+    "codeAriaLabel": "Education in JSON format",
+    "highlightsAriaLabel": "Highlights",
+    "subjectsLabel": "Key subjects",
+    "subjectsAriaLabel": "Subjects"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "commandHint": "$ curl -X POST ~/contact",
+    "subtitle": "Have a project in mind or want to chat? Write to me.",
+    "availability": "Availability",
+    "availabilityText": "Currently available for freelance projects and full-time opportunities.",
+    "responseTime": "Response time",
+    "responseTimeValue": "~ 24 — 48 hours",
+    "findMe": "Find me on",
+    "contactInfoAriaLabel": "Contact information"
+  },
+  "ContactForm": {
+    "ariaLabel": "Contact form",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "subjectJob": "Job opportunity",
+    "subjectFreelance": "Freelance project",
+    "subjectCollab": "Collaboration",
+    "subjectOther": "Other",
+    "message": "Message",
+    "messagePlaceholder": "Tell me about your project or inquiry...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successText": "Thanks for reaching out. I'll get back to you as soon as possible.",
+    "sendAnother": "Send another message",
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 2 characters",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectRequired": "Please select a subject",
+    "messageRequired": "Message is required",
+    "messageMinLength": "Message must be at least 20 characters"
+  },
+  "ExperienceData": {
+    "items": [
+      {
+        "company": "TechCorp Solutions",
+        "role": "Frontend Engineer",
+        "period": "2023 — Present",
+        "location": "Remote",
+        "description": "Development and maintenance of high-traffic web applications with React and TypeScript. Implementation of design systems and performance improvements that reduced load time by 40%.",
+        "achievements": [
+          "CRA to Next.js migration, improving Core Web Vitals metrics",
+          "Design and implementation of component system with Storybook",
+          "Mentoring junior developers on the team"
+        ],
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "GraphQL"]
+      },
+      {
+        "company": "StartupXYZ",
+        "role": "Full Stack Developer",
+        "period": "2021 — 2023",
+        "location": "Mexico City",
+        "description": "End-to-end feature development for a SaaS project management platform. Close collaboration with design and product to deliver high-quality features.",
+        "achievements": [
+          "Built the reports module with PDF generation",
+          "Implemented WebSockets for real-time collaboration",
+          "Reduced bundle size by 35% through code splitting"
+        ],
+        "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Redis", "Docker"]
+      },
+      {
+        "company": "Digital Agency",
+        "role": "Junior Web Developer",
+        "period": "2020 — 2021",
+        "location": "Mexico City",
+        "description": "Development of websites and landing pages for clients across various sectors. First professional exposure to accessibility best practices and SEO.",
+        "achievements": [
+          "Delivered over 15 client projects",
+          "WCAG 2.1 accessibility improvements on key projects"
+        ],
+        "technologies": ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
+      }
+    ]
+  },
+  "SkillsMinimap": {
+    "title": "skills.json",
+    "programming": "Programming",
+    "design": "Design",
+    "frontend": "Frontend",
+    "styles": "Styles",
+    "backend": "Backend",
+    "architecture": "Architecture",
+    "cloudTools": "Cloud & Tools",
+    "adobe": "Adobe",
+    "uxui": "UX / UI"
+  },
+  "EducationData": {
+    "skills": {
+      "programming": {
+        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
+        "backend": "Node.js, Express.js",
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
+        "architecture": "Frontend Architecture, Application State Design, Scalable Systems"
+      },
+      "design": {
+        "adobe": "Photoshop, InDesign, Illustrator, Lightroom, XD",
+        "uxui": "Sketch, Figma"
+      }
+    },
+    "items": [
+      {
+        "institution": "National Autonomous University of Mexico (UNAM)",
+        "degree": "Bachelor's in Computer Science",
+        "period": "2016 — 2020",
+        "location": "Mexico City",
+        "status": "Graduated",
+        "gpa": "9.2 / 10",
+        "description": "Comprehensive training in algorithms, data structures, software architecture, and distributed systems. Thesis project focused on web accessibility.",
+        "highlights": [
+          "Honorable mention for thesis project",
+          "ACM ICPC Regional participation",
+          "Volunteer tutor for Programming I and II"
+        ],
+        "coursework": [
+          "Algorithms & Data Structures",
+          "Web Development",
+          "Databases",
+          "Operating Systems",
+          "Computer Networks"
+        ]
+      },
+      {
+        "institution": "Platzi / Coursera",
+        "degree": "Courses & Certifications",
+        "period": "2020 — Present",
+        "location": "Online",
+        "status": "Ongoing",
+        "description": "Continuous learning in modern frontend technologies and development methodologies.",
+        "highlights": [
+          "Frontend Developer Career Path — Platzi",
+          "React & TypeScript Advanced — Udemy",
+          "Google UX Design Certificate — Coursera"
+        ],
+        "coursework": []
+      }
+    ]
+  }
+}

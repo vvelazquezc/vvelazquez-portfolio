@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Verónica Velázquez",
+    "role": "Frontend Engineer",
+    "bio": "Frontend Engineer specialized in building scalable and maintainable web applications. Strong experience within the React and TypeScript ecosystem, actively contributing to frontend architecture decisions and application state design in product-oriented environments. Focused on clean code, performance optimization, and technical solutions designed for sustainable growth.",
+    "cover_letter": "I am a Frontend Engineer specialized in building scalable and maintainable applications using React and TypeScript. Over the past few years, I have worked on designing and evolving frontend architectures, managing complex global state with Redux, and delivering robust solutions in product-oriented environments. In my most recent role at MonoM (2022–2025), I led technical decisions related to frontend architecture, application state design, and reusable component patterns, with a strong focus on performance, long-term maintainability, and technical debt reduction. My background in UX/UI design allows me to approach frontend development not only from an engineering perspective, but also with a clear understanding of user experience and product coherence.",
+    "location": "Terrassa, Spain",
+    "phone": "+34 679 751 020",
+    "email": "veronicavelazquezcalleja@gmail.com",
+    "cta_contact": "Get in touch",
+    "cta_experience": "View experience"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "toggle_code": "Code View",
+    "toggle_visual": "Visual View",
+    "jobs": [
+      {
+        "id": "monom",
+        "company": "MonoM",
+        "role": "Frontend Engineer",
+        "period": "2022 – 2025",
+        "tasks": [
+          "Active contribution to frontend architecture decisions using React and TypeScript.",
+          "Designed scalable global state management systems using Redux.",
+          "Implemented schema-based dynamic forms using react-jsonschema-form.",
+          "Developed advanced filtering systems and complex UI interactions with @dnd-kit.",
+          "Managed authentication and session flows using Firebase.",
+          "Defined reusable component patterns and frontend best practices.",
+          "Reduced technical debt and improved performance through strategic refactoring."
+        ]
+      },
+      {
+        "id": "consultia",
+        "company": "Consultia IT",
+        "role": "Frontend & UX/UI Technical Specialist",
+        "period": "2021 – 2022",
+        "tasks": [
+          "Developed micro-frontend architecture projects using React.",
+          "Worked in Agile environments collaborating with cross-functional teams.",
+          "Managed Azure-based cloud environments.",
+          "Functional analysis, feature development, and incident resolution."
+        ]
+      },
+      {
+        "id": "freelance",
+        "company": "Freelance",
+        "role": "Web Developer & Designer",
+        "period": "2017 – 2020",
+        "clients": "Prodigioso Volcán | Contents Area | BBVA IT | Extended Game",
+        "tasks": [
+          "Designed and developed multiple web platforms.",
+          "Frontend development for BBVA's internal investor and shareholder platform.",
+          "Newsletter and blog management.",
+          "Technologies: HTML5, CSS3, SASS, JavaScript, jQuery, Bootstrap, WordPress."
+        ]
+      },
+      {
+        "id": "bestmelab",
+        "company": "BestMeLab",
+        "role": "Web Designer & Developer",
+        "period": "2016 – 2017",
+        "tasks": [
+          "Design and implementation of the PANGEA product and e-commerce platform.",
+          "Technologies: WordPress, PHP, Adobe Suite."
+        ]
+      },
+      {
+        "id": "graphic",
+        "company": "Graphic Designer",
+        "role": "Freelance",
+        "period": "2017 – 2020",
+        "clients": "Method | Cambio de Sentido | Mont Petit Monde",
+        "tasks": [
+          "Online and offline design projects for multiple clients using Adobe tools for graphic creation, photo editing and layout."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "toggle_code": "Code View",
+    "toggle_visual": "Visual View",
+    "degrees": [
+      {
+        "id": "master-engineering",
+        "title": "Master in Software Engineering",
+        "school": "Assembler School",
+        "location": "Barcelona",
+        "period": "2020 – 2021"
+      },
+      {
+        "id": "master-web",
+        "title": "Master in Web Design & Development",
+        "school": "TRAZOS",
+        "location": "Madrid",
+        "period": "2016 – 2017"
+      },
+      {
+        "id": "cfgs",
+        "title": "Higher Degree in Editorial Design & Production",
+        "school": "IES Islas Filipinas",
+        "location": "Madrid",
+        "period": "2013 – 2015"
+      }
+    ],
+    "skills": {
+      "title": "Technical Skills",
+      "programming": {
+        "label": "Programming",
+        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
+        "backend": "Node.js, Express.js",
+        "package_managers": "NPM, yarn",
+        "databases": "MySQL, MongoDB",
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
+        "architecture": "Frontend Architecture, Application State Design, Scalable Systems"
+      },
+      "design": {
+        "label": "Design",
+        "adobe": "Photoshop, Indesign, Illustrator, Lightroom, XD",
+        "ux_ui": "Sketch, Figma"
+      },
+      "languages": {
+        "label": "Languages",
+        "english": "English — Professional working proficiency (B2 / First Certificate)",
+        "spanish": "Spanish — Native"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk.",
+    "name_label": "Name",
+    "name_placeholder": "Your name",
+    "email_label": "Email",
+    "email_placeholder": "you@email.com",
+    "message_label": "Message",
+    "message_placeholder": "Tell me how I can help you...",
+    "submit": "Send message",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  }
+}
