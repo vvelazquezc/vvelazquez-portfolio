@@ -13,7 +13,8 @@
     "next-intl": "^3.26.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.72.0"
+    "react-hook-form": "^7.72.0",
+    "resend": "^6.10.0"
   },
   "devDependencies": {
     "@types/node": "^20",

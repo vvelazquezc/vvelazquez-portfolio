@@ -82,7 +82,10 @@
     "emailInvalid": "El formato del email no es válido",
     "subjectRequired": "Selecciona un asunto",
     "messageRequired": "El mensaje es obligatorio",
-    "messageMinLength": "El mensaje debe tener al menos 20 caracteres"
+    "messageMinLength": "El mensaje debe tener al menos 20 caracteres",
+    "errorTitle": "Error al enviar",
+    "errorText": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo o contáctame directamente.",
+    "retry": "Intentar de nuevo"
   },
   "SkillsMinimap": {
     "title": "skills.json",

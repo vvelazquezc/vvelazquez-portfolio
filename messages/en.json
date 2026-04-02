@@ -82,7 +82,10 @@
     "emailInvalid": "Please enter a valid email address",
     "subjectRequired": "Please select a subject",
     "messageRequired": "Message is required",
-    "messageMinLength": "Message must be at least 20 characters"
+    "messageMinLength": "Message must be at least 20 characters",
+    "errorTitle": "Failed to send",
+    "errorText": "The message could not be sent. Please try again or contact me directly.",
+    "retry": "Try again"
   },
   "ExperienceData": {
     "items": [

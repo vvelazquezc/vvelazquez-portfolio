@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useTranslations } from "next-intl";
 
-type FormState = "idle" | "loading" | "success";
+type FormState = "idle" | "loading" | "success" | "error";
 
 interface FormData {
   name: string;
@@ -24,10 +24,19 @@ export default function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormData>({ mode: "onBlur" });
 
-  async function onSubmit() {
+  async function onSubmit(data: FormData) {
     setFormState("loading");
-    await new Promise((resolve) => setTimeout(resolve, 1200));
-    setFormState("success");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("send_failed");
+      setFormState("success");
+    } catch {
+      setFormState("error");
+    }
   }
 
   if (formState === "success") {
@@ -65,6 +74,43 @@ export default function ContactForm() {
           className="text-accent-purple text-sm hover:underline"
         >
           {t("sendAnother")}
+        </button>
+      </div>
+    );
+  }
+
+  if (formState === "error") {
+    return (
+      <div
+        className="card p-8 flex flex-col items-center gap-4 text-center animate-fade-in"
+        role="alert"
+        aria-live="polite"
+      >
+        <div className="w-14 h-14 rounded-full bg-code-red/10 border border-code-red/20 flex items-center justify-center">
+          <svg
+            className="w-7 h-7 text-code-red"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+        <h2 className="text-text-primary font-semibold text-lg">
+          {t("errorTitle")}
+        </h2>
+        <p className="text-text-secondary text-sm max-w-sm">{t("errorText")}</p>
+        <button
+          onClick={() => setFormState("idle")}
+          className="text-accent-purple text-sm hover:underline"
+        >
+          {t("retry")}
         </button>
       </div>
     );
