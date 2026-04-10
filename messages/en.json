@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "homeDescription": "Portfolio of Verónica Velázquez, Software Developer specialized in modern web experiences with React, Next.js, and TypeScript.",
+    "homeDescription": "Portfolio of Verónica Velázquez, Frontend Engineer specialised in scalable web applications with React, TypeScript and Next.js.",
     "experienceTitle": "Experience",
-    "experienceDescription": "Professional journey of Verónica Velázquez — Frontend Engineer and Full Stack Developer.",
+    "experienceDescription": "Professional journey of Verónica Velázquez — Frontend Engineer with a UX/UI design background.",
     "educationTitle": "Education",
     "educationDescription": "Academic background and certifications of Verónica Velázquez.",
     "contactTitle": "Contact",
@@ -20,8 +20,8 @@
   },
   "Hero": {
     "available": "Available for new opportunities",
-    "subtitle": "Software Developer & UI Engineer",
-    "description": "I build modern web experiences focused on clean code, accessible design, and performance. Passionate about turning complex ideas into elegant interfaces.",
+    "subtitle": "Frontend Engineer & UX/UI",
+    "description": "Frontend Engineer with a design background, specialised in React and TypeScript. I combine technical rigour with product sensibility to build scalable, maintainable interfaces that are coherent from a user experience perspective.",
     "viewExperience": "View experience",
     "contact": "Contact me"
   },
@@ -32,7 +32,7 @@
   },
   "ExperiencePage": {
     "title": "Experience",
-    "subtitle": "My professional journey as a software developer.",
+    "subtitle": "My professional journey as a Frontend Engineer.",
     "listAriaLabel": "Work experience list",
     "codeAriaLabel": "Work experience in JSON format",
     "achievementsAriaLabel": "Achievements",
@@ -87,48 +87,6 @@
     "errorText": "The message could not be sent. Please try again or contact me directly.",
     "retry": "Try again"
   },
-  "ExperienceData": {
-    "items": [
-      {
-        "company": "TechCorp Solutions",
-        "role": "Frontend Engineer",
-        "period": "2023 — Present",
-        "location": "Remote",
-        "description": "Development and maintenance of high-traffic web applications with React and TypeScript. Implementation of design systems and performance improvements that reduced load time by 40%.",
-        "achievements": [
-          "CRA to Next.js migration, improving Core Web Vitals metrics",
-          "Design and implementation of component system with Storybook",
-          "Mentoring junior developers on the team"
-        ],
-        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "GraphQL"]
-      },
-      {
-        "company": "StartupXYZ",
-        "role": "Full Stack Developer",
-        "period": "2021 — 2023",
-        "location": "Mexico City",
-        "description": "End-to-end feature development for a SaaS project management platform. Close collaboration with design and product to deliver high-quality features.",
-        "achievements": [
-          "Built the reports module with PDF generation",
-          "Implemented WebSockets for real-time collaboration",
-          "Reduced bundle size by 35% through code splitting"
-        ],
-        "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Redis", "Docker"]
-      },
-      {
-        "company": "Digital Agency",
-        "role": "Junior Web Developer",
-        "period": "2020 — 2021",
-        "location": "Mexico City",
-        "description": "Development of websites and landing pages for clients across various sectors. First professional exposure to accessibility best practices and SEO.",
-        "achievements": [
-          "Delivered over 15 client projects",
-          "WCAG 2.1 accessibility improvements on key projects"
-        ],
-        "technologies": ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
-      }
-    ]
-  },
   "SkillsMinimap": {
     "title": "skills.json",
     "programming": "Programming",
@@ -136,19 +94,83 @@
     "frontend": "Frontend",
     "styles": "Styles",
     "backend": "Backend",
-    "architecture": "Architecture",
+    "architecture": "Architecture & Performance",
     "cloudTools": "Cloud & Tools",
     "adobe": "Adobe",
     "uxui": "UX / UI"
   },
+  "ExperienceData": {
+    "items": [
+      {
+        "company": "MonoM",
+        "role": "Frontend Engineer",
+        "period": "2022 — 2025",
+        "location": "Spain",
+        "description": "Active participation in frontend architecture decisions using React, TypeScript and Next.js. Design of scalable global state management systems and definition of reusable patterns focused on maintainability, performance and technical debt reduction.",
+        "achievements": [
+          "Design of scalable global state management systems using Redux",
+          "Integration and consumption of REST APIs ensuring efficiency and consistency with the backend",
+          "Implementation of dynamic schema-based forms with react-jsonschema-form",
+          "Development of advanced filtering systems and complex interactions with @dnd-kit",
+          "Performance optimisation through lazy loading, memoisation and bundle reduction",
+          "Authentication and session management via Firebase",
+          "Technical debt reduction and codebase maintainability improvement through strategic refactoring",
+          "Agile (Scrum) workflows including ceremonies and continuous improvement"
+        ],
+        "technologies": ["React", "TypeScript", "Next.js", "Redux", "Firebase", "REST APIs", "react-jsonschema-form", "dnd-kit"]
+      },
+      {
+        "company": "Consultia IT",
+        "role": "Frontend & UX/UI",
+        "period": "2021 — 2022",
+        "location": "Spain",
+        "description": "Development of projects using microfrontend architecture in React. Agile environments collaborating with multidisciplinary teams and cloud environment management in Azure.",
+        "achievements": [
+          "Development of projects using microfrontend architecture in React",
+          "Collaboration with UX/UI teams using Figma",
+          "Agile environments (Scrum/Kanban)",
+          "Cloud environment management in Azure",
+          "New feature development and incident resolution"
+        ],
+        "technologies": ["React", "Azure", "Figma", "Microfrontends", "Agile"]
+      },
+      {
+        "company": "Freelance",
+        "role": "Web Developer & Designer",
+        "period": "2017 — 2020",
+        "location": "Spain",
+        "clients": "Prodigioso Volcán | Contents Area | BBVA IT | Extended Game",
+        "description": "Design and development of multiple web platforms with Mobile First and Responsive Design approach. Frontend development for corporate platforms and graphic design for various clients.",
+        "achievements": [
+          "Design and development of multiple web platforms with Mobile First approach",
+          "Frontend development for BBVA's internal investor and shareholder platform",
+          "Graphic design online and offline: visual identity, editorial layout and photo editing",
+          "Newsletter and blog management"
+        ],
+        "technologies": ["HTML5", "CSS3", "SASS", "JavaScript", "jQuery", "Bootstrap", "WordPress", "Photoshop", "Illustrator", "InDesign"]
+      },
+      {
+        "company": "BESTMELAB",
+        "role": "Web Designer & Developer",
+        "period": "2016 — 2017",
+        "location": "Spain",
+        "description": "Design of the new PANGEA product. Maintenance and implementation of the new product on the web in E-commerce format.",
+        "achievements": [
+          "Design of the new PANGEA product",
+          "Maintenance and implementation of the new product on the web (E-commerce)"
+        ],
+        "technologies": ["WordPress", "PHP", "Adobe Suite"]
+      }
+    ]
+  },
   "EducationData": {
     "skills": {
       "programming": {
-        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "frontend": "React, TypeScript, JavaScript (ES6+), Next.js, Redux, HTML5",
         "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
         "backend": "Node.js, Express.js",
-        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
-        "architecture": "Frontend Architecture, Application State Design, Scalable Systems"
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket, AI tools (GitHub Copilot, Claude)",
+        "architecture": "SSR / SSG, bundle optimisation, lazy loading, Core Web Vitals, REST APIs"
       },
       "design": {
         "adobe": "Photoshop, InDesign, Illustrator, Lightroom, XD",
@@ -157,39 +179,65 @@
     },
     "items": [
       {
-        "institution": "National Autonomous University of Mexico (UNAM)",
-        "degree": "Bachelor's in Computer Science",
-        "period": "2016 — 2020",
-        "location": "Mexico City",
+        "institution": "Assembler School",
+        "degree": "Master's in Software Engineering",
+        "period": "2020 — 2021",
+        "location": "Barcelona",
         "status": "Graduated",
-        "gpa": "9.2 / 10",
-        "description": "Comprehensive training in algorithms, data structures, software architecture, and distributed systems. Thesis project focused on web accessibility.",
+        "gpa": "",
+        "description": "Advanced training in software engineering focused on modern architectures and development best practices.",
         "highlights": [
-          "Honorable mention for thesis project",
-          "ACM ICPC Regional participation",
-          "Volunteer tutor for Programming I and II"
+          "Software architecture and scalable systems",
+          "Development with React and TypeScript",
+          "Agile methodologies and teamwork"
         ],
         "coursework": [
-          "Algorithms & Data Structures",
-          "Web Development",
+          "Frontend Architecture",
+          "React & TypeScript",
+          "Node.js",
           "Databases",
-          "Operating Systems",
-          "Computer Networks"
+          "Agile & Scrum"
         ]
       },
       {
-        "institution": "Platzi / Coursera",
-        "degree": "Courses & Certifications",
-        "period": "2020 — Present",
-        "location": "Online",
-        "status": "Ongoing",
-        "description": "Continuous learning in modern frontend technologies and development methodologies.",
+        "institution": "TRAZOS",
+        "degree": "Master's in Web Design & Development",
+        "period": "2016 — 2017",
+        "location": "Madrid",
+        "status": "Graduated",
+        "description": "Comprehensive training in web design and frontend development, combining technical and creative skills.",
         "highlights": [
-          "Frontend Developer Career Path — Platzi",
-          "React & TypeScript Advanced — Udemy",
-          "Google UX Design Certificate — Coursera"
+          "UX/UI design applied to real projects",
+          "Frontend web development",
+          "Professional design tools"
         ],
-        "coursework": []
+        "coursework": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "UX/UI Design",
+          "WordPress"
+        ]
+      },
+      {
+        "institution": "IES Islas Filipinas",
+        "degree": "Higher Degree in Editorial Design & Production",
+        "period": "2013 — 2015",
+        "location": "Madrid",
+        "status": "Graduated",
+        "description": "Higher vocational training specialised in graphic design and editorial production.",
+        "highlights": [
+          "Editorial design and professional layout",
+          "Digital and print graphic production",
+          "Full Adobe Suite"
+        ],
+        "coursework": [
+          "Photoshop",
+          "InDesign",
+          "Illustrator",
+          "Editorial Design",
+          "Graphic Production"
+        ]
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "homeDescription": "Portfolio de Verónica Velázquez, Software Developer especializada en experiencias web modernas con React, Next.js y TypeScript.",
+    "homeDescription": "Portfolio de Verónica Velázquez, Frontend Engineer especializada en aplicaciones web escalables con React, TypeScript y Next.js.",
     "experienceTitle": "Experiencia",
-    "experienceDescription": "Trayectoria profesional de Verónica Velázquez — Frontend Engineer y Full Stack Developer.",
+    "experienceDescription": "Trayectoria profesional de Verónica Velázquez — Frontend Engineer con background en diseño UX/UI.",
     "educationTitle": "Educación",
     "educationDescription": "Formación académica y certificaciones de Verónica Velázquez.",
     "contactTitle": "Contacto",
@@ -20,8 +20,8 @@
   },
   "Hero": {
     "available": "Disponible para nuevas oportunidades",
-    "subtitle": "Software Frontend Developer & UX/UI",
-    "description": "Soy Frontend Engineer especializada en aplicaciones complejas construidas con React y TypeScript. Durante los últimos años he trabajado diseñando y evolucionando arquitecturas frontend escalables, gestionando estado global con Redux y desarrollando soluciones robustas en entornos orientados a producto. En mi última etapa profesional (MonoM, 2022–2025), lideré decisiones técnicas relacionadas con arquitectura, organización del estado de aplicación y definición de patrones reutilizables, con foco en mantenibilidad, rendimiento y reducción de deuda técnica. Mi perfil combina una base sólida de ingeniería frontend con background en diseño UX/UI, lo que me permite construir soluciones no solo técnicas, sino también coherentes desde la experiencia de usuario.",
+    "subtitle": "Frontend Engineer & UX/UI",
+    "description": "Frontend Engineer con background en diseño, especializada en React y TypeScript. Combino criterio técnico y sensibilidad de producto para construir interfaces escalables, mantenibles y coherentes desde la experiencia de usuario.",
     "viewExperience": "Ver experiencia",
     "contact": "Contáctame"
   },
@@ -32,7 +32,7 @@
   },
   "ExperiencePage": {
     "title": "Experiencia",
-    "subtitle": "Mi trayectoria profesional como desarrolladora de software.",
+    "subtitle": "Mi trayectoria profesional como Frontend Engineer.",
     "listAriaLabel": "Lista de experiencia laboral",
     "codeAriaLabel": "Experiencia laboral en formato JSON",
     "achievementsAriaLabel": "Logros",
@@ -94,7 +94,7 @@
     "frontend": "Frontend",
     "styles": "Estilos",
     "backend": "Backend",
-    "architecture": "Arquitectura",
+    "architecture": "Arquitectura y Rendimiento",
     "cloudTools": "Cloud & Tools",
     "adobe": "Adobe",
     "uxui": "UX / UI"
@@ -106,36 +106,33 @@
         "role": "Frontend Engineer",
         "period": "2022 — 2025",
         "location": "España",
-        "description": "Participación activa en decisiones de arquitectura frontend con React y TypeScript. Diseño de sistemas escalables de gestión de estado global y definición de patrones reutilizables con foco en mantenibilidad y rendimiento.",
+        "description": "Participación activa en decisiones de arquitectura frontend con React, TypeScript y Next.js. Diseño de sistemas escalables de gestión de estado global y definición de patrones reutilizables con foco en mantenibilidad, rendimiento y reducción de deuda técnica.",
         "achievements": [
           "Diseño de sistemas escalables de gestión de estado global utilizando Redux",
+          "Integración y consumo de APIs REST asegurando eficiencia y consistencia con backend",
           "Implementación de formularios dinámicos basados en schema con react-jsonschema-form",
           "Desarrollo de sistemas avanzados de filtrado e interacciones complejas con @dnd-kit",
+          "Optimización del rendimiento mediante lazy loading, memoización y reducción de bundle",
           "Gestión de autenticación y sesiones mediante Firebase",
-          "Reducción de deuda técnica y mejora de rendimiento mediante refactorizaciones estratégicas"
+          "Reducción de deuda técnica y mejora de mantenibilidad mediante refactorizaciones estratégicas",
+          "Trabajo en entornos Agile (Scrum), participando en ceremonias y mejora continua"
         ],
-        "technologies": [
-          "React",
-          "TypeScript",
-          "Redux",
-          "Firebase",
-          "react-jsonschema-form",
-          "dnd-kit"
-        ]
+        "technologies": ["React", "TypeScript", "Next.js", "Redux", "Firebase", "APIs REST", "react-jsonschema-form", "dnd-kit"]
       },
       {
         "company": "Consultia IT",
-        "role": "Frontend & Técnica UX/UI",
+        "role": "Frontend & UX/UI",
         "period": "2021 — 2022",
         "location": "España",
         "description": "Desarrollo de proyectos con arquitectura de microfrontends en React. Trabajo en entornos Agile colaborando con equipos multidisciplinares y gestión de entornos cloud en Azure.",
         "achievements": [
           "Desarrollo de proyectos con arquitectura de microfrontends en React",
-          "Trabajo en entornos Agile colaborando con equipos multidisciplinares",
+          "Colaboración con equipos UX/UI utilizando Figma",
+          "Trabajo en entornos Agile (Scrum/Kanban)",
           "Gestión de entornos cloud en Azure",
           "Análisis funcional, desarrollo de nuevas funcionalidades y resolución de incidencias"
         ],
-        "technologies": ["React", "Azure", "Microfrontends", "Agile"]
+        "technologies": ["React", "Azure", "Figma", "Microfrontends", "Agile"]
       },
       {
         "company": "Autónoma",
@@ -143,21 +140,14 @@
         "period": "2017 — 2020",
         "location": "España",
         "clients": "Prodigioso Volcán | Contents Area | BBVA IT | Extended Game",
-        "description": "Diseño y desarrollo de múltiples plataformas web. Desarrollo frontend para la plataforma interna de inversores y accionistas de BBVA.",
+        "description": "Diseño y desarrollo de múltiples plataformas web con enfoque Mobile First y Responsive Design. Desarrollo frontend para plataformas corporativas y diseño gráfico para distintos clientes.",
         "achievements": [
-          "Diseño y desarrollo de múltiples plataformas web",
+          "Diseño y desarrollo de múltiples plataformas web con enfoque Mobile First",
           "Desarrollo frontend para la plataforma interna de inversores y accionistas de BBVA",
+          "Diseño gráfico online y offline: identidad visual, maquetación editorial y edición fotográfica",
           "Gestión de newsletters y blogs"
         ],
-        "technologies": [
-          "HTML5",
-          "CSS3",
-          "SASS",
-          "JavaScript",
-          "jQuery",
-          "Bootstrap",
-          "WordPress"
-        ]
+        "technologies": ["HTML5", "CSS3", "SASS", "JavaScript", "jQuery", "Bootstrap", "WordPress", "Photoshop", "Illustrator", "InDesign"]
       },
       {
         "company": "BESTMELAB",
@@ -170,19 +160,6 @@
           "Mantenimiento e implementación del nuevo producto a la web (E-commerce)"
         ],
         "technologies": ["WordPress", "PHP", "Adobe Suite"]
-      },
-      {
-        "company": "Diseñadora Gráfica",
-        "role": "Freelance",
-        "period": "2017 — 2020",
-        "location": "España",
-        "clients": "Method | Cambio de Sentido | Mont Petit Monde",
-        "description": "Diseños online y offline con diferentes herramientas de Adobe para la creación gráfica, edición fotográfica y maquetación para distintos clientes.",
-        "achievements": [
-          "Diseños online y offline para distintos clientes",
-          "Creación gráfica, edición fotográfica y maquetación"
-        ],
-        "technologies": ["Photoshop", "Illustrator", "InDesign", "Lightroom"]
       }
     ]
   },
@@ -254,13 +231,13 @@
       "title": "Competencias técnicas",
       "programming": {
         "label": "Programación",
-        "frontend": "React, TypeScript, JavaScript (ES6+), Redux, HTML5",
+        "frontend": "React, TypeScript, JavaScript (ES6+), Next.js, Redux, HTML5",
         "styles": "CSS3, SCSS/SASS, LESS, Tailwind, Bootstrap, Styled Components, Emotion",
         "backend": "Node.js, Express.js",
         "packageManagers": "NPM, Yarn",
         "databases": "MySQL, MongoDB",
-        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket",
-        "architecture": "Arquitectura Frontend, Diseño de Estado de Aplicación, Sistemas Escalables"
+        "cloud": "Firebase, Azure, Git, GitHub, Bitbucket, AI tools (GitHub Copilot, Claude)",
+        "architecture": "SSR / SSG, optimización de bundle, lazy loading, Core Web Vitals, APIs REST"
       },
       "design": {
         "label": "Diseño",
