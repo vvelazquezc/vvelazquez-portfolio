@@ -2,7 +2,7 @@
 
 Personal portfolio of Verónica Velázquez, Frontend Engineer specialised in React, TypeScript and Next.js.
 
-🌐 [vvelazquez-portfolio.vercel.ap](https://vvelazquez-portfolio.vercel.app/es)
+🌐 [vvelazquez-portfolio.vercel.app](https://vvelazquez-portfolio.vercel.app/es)
 
 ## Tech Stack
 
